@@ -4,7 +4,7 @@ title: プライバシーポリシー / Privacy Policy
 
 # プライバシーポリシー
 
-最終更新日: 2026年7月10日
+最終更新日: 2026年7月16日
 
 本ポリシーは、モバイルアプリ「Timing」(以下「本アプリ」)における情報の取り扱いを説明します。
 
@@ -22,6 +22,7 @@ title: プライバシーポリシー / Privacy Policy
 | 対戦の詳細 | 各ラウンドの目標秒数、入力した秒数、誤差、勝敗、日時 |
 | レート履歴 | レートの変動値と変動後の値 |
 | 不正防止 | 物理的に不可能な入力や統計的に不自然な記録を検知した際のフラグ |
+| 引き継ぎコード | データ引き継ぎ機能を利用する場合に発行される、アカウントに紐づくランダムなコード |
 | 購入情報 | 課金した場合のみ、ストアが発行する取引 ID・商品 ID・プラットフォーム名 |
 
 **クレジットカード番号や決済情報を本アプリが受け取ることはありません。** 決済はすべて Apple および Google が処理します。
@@ -54,15 +55,17 @@ BGM・効果音・バイブレーションの設定、表示言語、広告削�
 
 iOS では、パーソナライズされた広告のために端末のトラッキング許可を求める場合があります。許可しなくても本アプリのすべての機能をご利用いただけます。
 
+欧州経済領域(EEA)・英国など法令で同意が必要な地域では、広告の表示前に同意を確認するメッセージを表示します。同意しない場合は、パーソナライズされていない広告が表示されるか、広告が表示されません。
+
 ## 5. 子どものプライバシー
 
 本アプリは13歳未満(欧州経済領域においては16歳未満)の方を対象としていません。該当する方の情報を意図的に収集することはありません。誤って収集したことが判明した場合は速やかに削除します。
 
 ## 6. データの保持と削除
 
-匿名アカウントは端末のアプリ内に保存された認証情報に紐づいています。**アプリを削除すると、その匿名アカウントへアクセスする手段が失われ、レートや戦績を引き継ぐことはできません。**
+匿名アカウントは端末のアプリ内に保存された認証情報に紐づいています。iOS では認証情報が端末のキーチェーンに保存されるため、アプリを入れ直しても同じアカウントへ復帰できる場合があります。また、アプリ内「設定 > データ引き継ぎ」で発行されるコードを使うと、レート・戦績・購入を別の端末へ移すことができます。**引き継ぎコードを控えずにアプリを削除し、認証情報も失われた場合は、アカウントへ復帰できなくなります。**
 
-サーバー上のデータの削除をご希望の場合は、下記の連絡先までご連絡ください。ご本人確認のうえ、合理的な期間内に削除します。
+サーバー上のデータの削除をご希望の場合は、下記の連絡先までご連絡ください。「設定 > データ引き継ぎ」に表示されるコードを添えていただくと、対象アカウントを特定できます。ご本人確認のうえ、合理的な期間内に削除します。
 
 ## 7. 利用者の権利
 
@@ -84,7 +87,7 @@ arcsin1024@gmail.com
 
 # Privacy Policy
 
-Last updated: July 10, 2026
+Last updated: July 16, 2026
 
 This policy explains how the mobile application "Timing" (the "App") handles information.
 
@@ -102,6 +105,7 @@ The App does not require you to create an account. **We do not collect your emai
 | Match details | Target duration, submitted duration, error, outcome, and timestamp of each round |
 | Rating history | Rating changes and resulting values |
 | Anti-cheat | Flags raised when a submission is physically impossible or statistically implausible |
+| Transfer code | A random code tied to your account, issued when you use the data transfer feature |
 | Purchase data | Only if you make a purchase: the transaction ID, product ID, and platform issued by the store |
 
 **The App never receives your credit card number or payment details.** All payments are processed by Apple and Google.
@@ -134,15 +138,17 @@ If you use the App for free, we display a banner advertisement at the bottom of 
 
 On iOS, we may ask for permission to track you in order to serve personalized ads. Declining does not restrict any feature of the App.
 
+In regions where consent is required by law, such as the European Economic Area and the United Kingdom, a consent message is shown before ads are served. Without consent, non-personalized ads or no ads are shown.
+
 ## 5. Children's Privacy
 
 The App is not directed to children under 13 (under 16 in the European Economic Area). We do not knowingly collect information from them. If we learn that we have, we will delete it promptly.
 
 ## 6. Data Retention and Deletion
 
-Your anonymous account is tied to credentials stored inside the App on your device. **If you uninstall the App, you lose access to that anonymous account, and your rating and match history cannot be recovered or transferred.**
+Your anonymous account is tied to credentials stored inside the App on your device. On iOS, the credentials are kept in the system keychain, so reinstalling the App may restore the same account. You can also move your rating, records, and purchase to another device using the code issued on the in-app "Settings > Data Transfer" screen. **If you uninstall the App without noting your transfer code and the credentials are lost, the account cannot be recovered.**
 
-To request deletion of your server-side data, contact us at the address below. We will verify your request and delete the data within a reasonable period.
+To request deletion of your server-side data, contact us at the address below. Including the code shown on the "Settings > Data Transfer" screen lets us identify your account. We will verify your request and delete the data within a reasonable period.
 
 ## 7. Your Rights
 
