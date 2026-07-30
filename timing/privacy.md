@@ -4,7 +4,7 @@ title: プライバシーポリシー / Privacy Policy
 
 # プライバシーポリシー
 
-最終更新日: 2026年7月16日
+最終更新日: 2026年7月30日
 
 本ポリシーは、モバイルアプリ「Timing」(以下「本アプリ」)における情報の取り扱いを説明します。
 
@@ -65,7 +65,27 @@ iOS では、パーソナライズされた広告のために端末のトラッ�
 
 匿名アカウントは端末のアプリ内に保存された認証情報に紐づいています。iOS では認証情報が端末のキーチェーンに保存されるため、アプリを入れ直しても同じアカウントへ復帰できる場合があります。また、アプリ内「設定 > データ引き継ぎ」で発行されるコードを使うと、レート・戦績・購入を別の端末へ移すことができます。**引き継ぎコードを控えずにアプリを削除し、認証情報も失われた場合は、アカウントへ復帰できなくなります。**
 
-サーバー上のデータの削除をご希望の場合は、下記の連絡先までご連絡ください。「設定 > データ引き継ぎ」に表示されるコードを添えていただくと、対象アカウントを特定できます。ご本人確認のうえ、合理的な期間内に削除します。
+### データ削除の手順
+
+「合同会社Node」が開発するアプリ「Timing」について、サーバー上のデータの削除は次の手順でリクエストできます。
+
+1. アプリの「設定 > データ引き継ぎ」から、ご自身の引き継ぎコードを確認する(削除するアカウントの特定に使います。控えられない場合は手順2の連絡時にその旨をお伝えください)
+2. 件名を「データ削除リクエスト」として、[arcsin1024@gmail.com](mailto:arcsin1024@gmail.com) 宛に、引き継ぎコード(分かる場合)を添えてメールを送る
+3. 本人確認のご連絡をする場合があります
+4. 確認が取れ次第、**14日以内**に対象データを削除します
+
+### 削除される情報・保持される情報
+
+| 情報 | 削除リクエストへの対応 |
+| --- | --- |
+| プロフィール(ニックネーム、国、アバター) | 削除します |
+| ゲーム記録(レート、対戦数、勝敗数、自己ベスト誤差) | 削除します |
+| 対戦の詳細(各ラウンドの目標秒数・入力秒数・誤差・勝敗・日時) | 削除します |
+| レート履歴 | 削除します |
+| 引き継ぎコード・匿名アカウント識別子 | 削除します |
+| 購入情報(取引 ID・商品 ID・プラットフォーム名) | 会計・不正防止の記録として、法令で定められた期間(最長7年間)保持したうえで削除します。この間、対戦等の他機能には使用しません |
+
+**アプリをアンインストールしただけでは、サーバー上のデータは削除されません。**削除には上記の手順によるリクエストが必要です。
 
 ## 7. 利用者の権利
 
@@ -87,7 +107,7 @@ arcsin1024@gmail.com
 
 # Privacy Policy
 
-Last updated: July 16, 2026
+Last updated: July 30, 2026
 
 This policy explains how the mobile application "Timing" (the "App") handles information.
 
@@ -148,7 +168,27 @@ The App is not directed to children under 13 (under 16 in the European Economic 
 
 Your anonymous account is tied to credentials stored inside the App on your device. On iOS, the credentials are kept in the system keychain, so reinstalling the App may restore the same account. You can also move your rating, records, and purchase to another device using the code issued on the in-app "Settings > Data Transfer" screen. **If you uninstall the App without noting your transfer code and the credentials are lost, the account cannot be recovered.**
 
-To request deletion of your server-side data, contact us at the address below. Including the code shown on the "Settings > Data Transfer" screen lets us identify your account. We will verify your request and delete the data within a reasonable period.
+### How to request deletion
+
+To request deletion of your server-side data from "Timing," developed by Node LLC:
+
+1. Open the App, go to Settings → Data Transfer, and note your transfer code (this identifies which account to delete; if you can't access it, mention that when you contact us)
+2. Email [arcsin1024@gmail.com](mailto:arcsin1024@gmail.com) with the subject "Data Deletion Request," including your transfer code if available
+3. We may follow up to verify your identity
+4. Once verified, we will delete the applicable data within **14 days**
+
+### What gets deleted vs. retained
+
+| Data | How we handle a deletion request |
+| --- | --- |
+| Profile (nickname, country, avatar) | Deleted |
+| Game records (rating, match count, wins/losses, best error) | Deleted |
+| Match details (per-round target/submitted time, error, outcome, timestamp) | Deleted |
+| Rating history | Deleted |
+| Transfer code / anonymous account identifier | Deleted |
+| Purchase data (transaction ID, product ID, platform) | Retained as an accounting/anti-fraud record for the period required by law (up to 7 years), then deleted. It is not used for any other purpose during that time |
+
+**Uninstalling the App does not, by itself, delete your server-side data.** Deletion requires the request above.
 
 ## 7. Your Rights
 
