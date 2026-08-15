@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Timing! をダウンロード</title>
+<style>
+  :root { color-scheme: light; }
+  body {
+    margin: 0; padding: 32px 24px;
+    min-height: 100vh; box-sizing: border-box;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 20px;
+    background: #FBF8F0; color: #33302A;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+                 "Noto Sans JP", system-ui, sans-serif;
+    text-align: center;
+  }
+  h1 { margin: 0; font-size: 30px; letter-spacing: .02em; }
+  p  { margin: 0; font-size: 15px; color: #8D8677; line-height: 1.7; }
+  .links { display: flex; flex-direction: column; gap: 12px; margin-top: 4px; }
+  a {
+    display: block; min-width: 240px; padding: 16px 32px;
+    border-radius: 14px; background: #0E9C7F; color: #fff;
+    text-decoration: none; font-weight: 700; font-size: 16px;
+    box-shadow: 0 3px 0 #0A7A63;
+  }
+  a:active { transform: translateY(2px); box-shadow: 0 1px 0 #0A7A63; }
+</style>
+</head>
+<body>
+  <h1>Timing!</h1>
+  <p>体内時計の正確さを競う対戦ゲーム<br>A head-to-head game about your internal clock</p>
+  <div class="links">
+    <a id="ios" href="https://apps.apple.com/app/id6790704635">App Store</a>
+    <a id="android" href="https://play.google.com/store/apps/details?id=com.node.timing">Google Play</a>
+  </div>
+<script>
+  (function () {
+    var APPSTORE = "https://apps.apple.com/app/id6790704635";
+    var PLAY = "https://play.google.com/store/apps/details?id=com.node.timing";
+    var ua = navigator.userAgent || "";
+
+    // iPadOS 13+ は UA が Macintosh になるため、タッチ有無で併せて判定する
+    var isIOS = /iPhone|iPad|iPod/i.test(ua) ||
+                (/Macintosh/i.test(ua) && typeof document.ontouchend !== "undefined");
+    var isAndroid = /Android/i.test(ua);
+
+    // ?stay を付けると振り分けせず両方のボタンを出す(動作確認用)
+    if (location.search.indexOf("stay") !== -1) return;
+
+    if (isIOS) location.replace(APPSTORE);
+    else if (isAndroid) location.replace(PLAY);
+    // それ以外(PC など)は両方のボタンを表示したままにする
+  })();
+</script>
+</body>
+</html>
